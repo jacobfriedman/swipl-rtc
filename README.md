@@ -5,7 +5,7 @@ This package enabled Prolog to interface with [libdatachannel](https://github.co
 You may install this pack on swi-prolog by running
 
 ```
-?- pack_install('https://github.com/<owner>/<pack>.git').
+?- pack_install('https://github.com/jacobfriedman/swipl-rtc.git').
 ```
 
 ## Example Usage
