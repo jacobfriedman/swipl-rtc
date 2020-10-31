@@ -23,15 +23,12 @@ Api documentation can be found ____.
 Rather than build in-package (we want to build for the WASM & Docker Envs without make), 
 we suply the libdatachannel library shared object. We build with GnuTLS
 
-Our build uses 
 ```
 apt-get install -y \
-			gnutls-bin \
-			libsrtp2-dev 
+	gnutls-bin \
+	libsrtp2-dev 
 ```
-
-[libdatachannel](https://github.com/paullouisageneau/libdatachannel)
-
+from [libdatachannel](https://github.com/paullouisageneau/libdatachannel).
 
 
 ### Running
