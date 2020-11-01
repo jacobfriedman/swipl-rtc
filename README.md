@@ -30,6 +30,10 @@ apt-get install -y \
 ```
 from [libdatachannel](https://github.com/paullouisageneau/libdatachannel).
 
+* NOTE: WASM BUILD *
+
+Need to test the static archive .a to see if it works with the wasm.
+
 
 ### Running
 
